@@ -6,7 +6,7 @@ export default function Index() {
     return (
         <Canvas>
             <Model/>
-            <directionalLight intensity={2} position={[0, 2, 3]} />
+            <ambientLight intensity={1} />
         </Canvas>
     )
 }
